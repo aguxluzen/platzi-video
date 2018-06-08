@@ -6,8 +6,19 @@ class Media extends PureComponent {
   state = {
     author: 'Leonidas Esteban'
   }
-
-
+  // constructor(props) {
+  //   super(props)
+  //   this.state = {
+  //     author: props.author
+  //   }
+  // //   this.handleClick = this.handleClick.bind(this);
+  // }
+  // handleClick = (event) => {
+  //   // console.log(this.props.image)
+  //   // this.setState({
+  //   //   author: 'Ricardo Celis',
+  //   // })
+  // }
   render() {
     const styles = {
       container: {

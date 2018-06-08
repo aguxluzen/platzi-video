@@ -10,3 +10,4 @@ const homeContainer = document.getElementById('home-container')
 // ReactDOM.render(que voy a renderizar, donde lo haré);
 // const holaMundo = <h1>hola Estudiante!</h1>;
 render( <Home data={data} />, homeContainer);
+

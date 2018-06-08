@@ -1,2 +1,4 @@
 node_modules
 platzi-video
+**/.idea/**
+*.iml
