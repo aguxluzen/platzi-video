@@ -1,10 +1,12 @@
 import React from 'react';
-import './video-player-controls.css';
+import './video-player.controls.css';
 
-const VideoPlayerControls = (props) => (
+function VideoPlayerControls(props) {
+  return (
     <div className="VideoPlayerControls">
-        {props.children}
+      {props.children}
     </div>
-);
+  )
+}
 
-export default VideoPlayerControls;
+export default VideoPlayerControls

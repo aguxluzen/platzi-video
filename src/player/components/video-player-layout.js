@@ -5,6 +5,6 @@ const VideoPlayerLayout = (props) => (
   <div className="VideoPlayer">
     {props.children}
   </div>
-);
+)
 
-export default VideoPlayerLayout;
+export default VideoPlayerLayout
